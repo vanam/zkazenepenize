@@ -1,0 +1,14 @@
+{
+  "name": "zkazenepenize",
+  "compatibility_date": "2026-09-11", // Update to the day you deploy
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "zkazenepenize.cz",
+      "custom_domain": true
+    }
+  ]
+}
