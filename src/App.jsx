@@ -151,7 +151,18 @@ export default function App() {
         <div className="container footer-inner">
           <Link to="/" className="footer-brand"><span className="brand-mark">ZP</span> Zkažené peníze</Link>
           <p>Čísla bez iluzí. Lepší pohled na hodnotu vašeho příjmu v čase.</p>
-          <span className="privacy-note"><Icon name="shield" size={17} /> Data neopustí váš prohlížeč</span>
+          <div className="footer-meta">
+            <span className="privacy-note"><Icon name="shield" size={17} /> Data neopustí váš prohlížeč</span>
+            <a
+              href="https://github.com/vanam/zkazenepenize"
+              target="_blank"
+              rel="noreferrer"
+              className="github-link"
+              aria-label="Zdrojový kód na GitHubu"
+            >
+              <Icon name="github" size={16} />
+            </a>
+          </div>
         </div>
       </footer>
     </div>

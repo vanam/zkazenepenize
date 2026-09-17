@@ -403,6 +403,9 @@ td.strong { color: var(--ink); font-weight: 750; }
 .footer-brand .brand-mark { width: 30px; height: 30px; border-radius: 9px; font-size: .64rem; }
 .footer-inner > p { text-align: center; }
 .privacy-note { display: inline-flex; align-items: center; justify-content: flex-end; gap: 7px; color: var(--green); font-weight: 700; }
+.footer-meta { display: inline-flex; align-items: center; justify-content: flex-end; gap: 18px; }
+.github-link { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-weight: 600; text-decoration: none; white-space: nowrap; }
+.github-link:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
 .not-found { display: flex; min-height: 55vh; flex-direction: column; align-items: flex-start; justify-content: center; gap: 16px; }
 .not-found h1 { max-width: 680px; font-size: clamp(2.6rem, 6vw, 4.8rem); }
 .not-found p { color: var(--muted); }
@@ -486,6 +489,7 @@ td.strong { color: var(--ink); font-weight: 750; }
   .empty-state { flex-direction: column; }
   .footer-inner { grid-template-columns: 1fr; gap: 16px; }
   .privacy-note { justify-content: flex-start; }
+  .footer-meta { justify-content: flex-start; flex-wrap: wrap; }
 }
 
 @media (prefers-reduced-motion: reduce) {
